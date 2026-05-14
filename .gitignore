@@ -1,1 +1,17 @@
+# IDE
 .idea/
+.vscode/
+
+# Dependencies
+node_modules/
+
+# Angular build output
+.angular/
+dist/
+
+# Tauri / Rust
+shell/target/
+shell/gen/
+
+# Environment
+.env
