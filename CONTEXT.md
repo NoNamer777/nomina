@@ -24,11 +24,11 @@ A **Tag** is a named field embedded in a media file's format-specific container 
 
 ## Supported File Formats
 
-| Category | Formats |
-|----------|---------|
-| Audio    | MP3, FLAC, OGG, AAC, WAV, OPUS |
-| Video    | MP4, MKV, AVI |
-| Image    | JPEG, PNG (album art; no tag editing) |
+| Category  | Formats                                |
+|:----------|:---------------------------------------|
+| Audio     | MP3, FLAC, OGG, AAC, WAV, OPUS         |
+| Video     | MP4, MKV, AVI                          |
+| Image     | JPEG, PNG (album art; no tag editing)  |
 
 Images are included in the Rename Scope but are not subject to Metadata Operations.
 
@@ -46,8 +46,8 @@ Files and folders can be loaded into the application via the Folder Input or by 
 
 ## Technology Stack
 
-| Layer    | Choice  |
-|----------|---------|
-| Shell    | Tauri   |
-| Frontend | Angular |
-| Language | TypeScript (frontend), Rust (backend) |
+| Layer     | Choice                                 |
+|:----------|:---------------------------------------|
+| Shell     | Tauri                                  |
+| Frontend  | Angular                                |
+| Language  | TypeScript (frontend), Rust (backend)  |
