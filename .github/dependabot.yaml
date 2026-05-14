@@ -1,0 +1,34 @@
+version: 2
+updates:
+    - package-ecosystem: npm
+      directory: /
+      schedule:
+          interval: weekly
+      groups:
+          angular:
+              patterns:
+                  - '@angular/*'
+          tauri:
+              patterns:
+                  - '@tauri-apps/*'
+          dependencies:
+              patterns:
+                  - '*'
+
+    - package-ecosystem: cargo
+      directory: /shell
+      schedule:
+          interval: weekly
+      groups:
+          dependencies:
+              patterns:
+                  - '*'
+
+    - package-ecosystem: github-actions
+      directory: /
+      schedule:
+          interval: weekly
+      groups:
+          actions:
+              patterns:
+                  - '*'

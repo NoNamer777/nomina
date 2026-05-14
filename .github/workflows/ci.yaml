@@ -17,7 +17,7 @@ jobs:
     frontend:
         name: Frontend
         runs-on: ubuntu-24.04
-        timeout-minutes: 15
+        timeout-minutes: 5
 
         steps:
             - name: Checkout
@@ -47,7 +47,7 @@ jobs:
     rust:
         name: Rust
         runs-on: ubuntu-24.04
-        timeout-minutes: 45
+        timeout-minutes: 10
 
         steps:
             - name: Checkout
