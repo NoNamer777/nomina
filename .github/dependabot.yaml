@@ -7,13 +7,13 @@ updates:
       groups:
           angular:
               patterns:
-                  - "@angular/*"
+                  - '@angular/*'
           tauri:
               patterns:
-                  - "@tauri-apps/*"
+                  - '@tauri-apps/*'
           dependencies:
               patterns:
-                  - "*"
+                  - '*'
 
     - package-ecosystem: cargo
       directory: /shell
@@ -22,7 +22,7 @@ updates:
       groups:
           dependencies:
               patterns:
-                  - "*"
+                  - '*'
 
     - package-ecosystem: github-actions
       directory: /
@@ -31,4 +31,4 @@ updates:
       groups:
           actions:
               patterns:
-                  - "*"
+                  - '*'
