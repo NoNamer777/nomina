@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-accent: var(--color-green-800);
+}
