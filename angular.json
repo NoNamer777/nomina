@@ -24,8 +24,8 @@
                                 "input": "frontend/public"
                             }
                         ],
-                        "inlineStyleLanguage": "scss",
-                        "styles": ["frontend/src/styles.scss"]
+                        "inlineStyleLanguage": "css",
+                        "styles": ["frontend/src/styles.css"]
                     },
                     "defaultConfiguration": "production",
                     "configurations": {
@@ -63,7 +63,7 @@
     "schematics": {
         "@schematics/angular:component": {
             "changeDetection": "OnPush",
-            "style": "scss"
+            "style": "none"
         }
     }
 }

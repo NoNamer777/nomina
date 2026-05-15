@@ -17,6 +17,7 @@
 !.prettierrc
 
 node_modules/
+pnpm-lock.yaml
 
 .idea/
 .run/
